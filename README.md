@@ -1,5 +1,8 @@
 **Assignment 01**
 **Live Demo**: https://quotegenerator-rouge.vercel.app/
+<img width="1366" height="768" alt="Screenshot (1152)" src="https://github.com/user-attachments/assets/55d1a614-2a47-480b-934a-de8bafbcc05d" />
+<img width="1366" height="768" alt="Screenshot (1153)" src="https://github.com/user-attachments/assets/fdc08832-f614-4589-ad20-fd97810c46e3" />
+
 
 **Assignment 02**
 **Live Demo**: https://blog-summariser-self.vercel.app/
