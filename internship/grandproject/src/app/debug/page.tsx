@@ -57,7 +57,10 @@ export default function DebugPage() {
       addLog(`Result: ${JSON.stringify(result, null, 2)}`);
       
       if (result.error) {
-        addLog(`❌ Magic link error: ${result.error.message || result.error}`);
+        const errorMessage = typeof result.error === 'object' && result.error && 'message' in result.error 
+          ? (result.error as any).message 
+          : result.error;
+        addLog(`❌ Magic link error: ${errorMessage}`);
       } else {
         addLog('✅ Magic link sent successfully');
       }
